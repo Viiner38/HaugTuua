@@ -15,15 +15,15 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(HaugTuua.MOD_ID)
-public class HaugTuua
+@Mod(minumod.MOD_ID)
+public class minumod
 {
     // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "viinermod";
     // Directly reference a slf4j logger
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public HaugTuua()
+    public minumod()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
